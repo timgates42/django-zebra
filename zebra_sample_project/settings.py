@@ -1,6 +1,6 @@
 # Django settings for zebra_sample_project project.
 
-# Custom path to include zebra from this repo, intstead of pip installing itself.
+# Custom path to include zebra from this repo, instead of pip installing itself.
 import sys
 from os.path import abspath, dirname, join
 sys.path.insert(0, join(abspath(dirname(__file__)), "../"))
